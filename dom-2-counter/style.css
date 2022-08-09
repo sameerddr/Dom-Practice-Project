@@ -3,3 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    display: inline;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+}
+
+#value {
+    font-size: 100px;
+    color: lemonchiffon;
+}
