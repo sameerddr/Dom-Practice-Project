@@ -15,6 +15,10 @@ btns.forEach(function(btn) {
         } else {
             alert("You are Reseting the value")
             count = 0;
+
+            function myFunction() {
+                document.getElementsByTagName("alert").style.fontSize = "100px";
+            }
         }
         value.textContent = count;
     });
