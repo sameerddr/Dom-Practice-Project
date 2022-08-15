@@ -41,6 +41,7 @@
 .nav li a {
     color: white;
     text-decoration: none;
+    background-color: #f55c47;
 }
 
 .nav li a:hover {
