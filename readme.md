@@ -42,6 +42,7 @@ now this one is about the Sidebar Topic .
 [![Image alt text](screenshot3.png)]
 
 <h4> Project 6-: Accordian Project</h4>
+<h3> This project does not contain video </h3>
 
 
 <p>Hey Guys I am back with my another DOM project ,
@@ -51,5 +52,17 @@ now this one is about the Accordian Topic .
 
 ![Image alt text](screenshot4.png)
 
+
+<hr>
+
+<h4> Project 7-:  Video Buttons</h4>
+
+<p>Hey My dear friends , i am ready with my new Dom project with the spice of cricket legends . So basically this project is all about the Play and Pause Button in the video . #project #video and Have a Short term Code in Javascript inculding the Html and Css .
+
+Plz Mention The Remarks or feedback for this project .. Thanks Guys
+
+#sameerddr</p>
+
+[![Image alt text](screenshot5.png)](https://www.linkedin.com/posts/sameer-varshney-63a727203_project-video-aircampus-activity-6965577868722483201-FlW8?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 <hr>
