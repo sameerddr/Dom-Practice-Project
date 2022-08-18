@@ -77,3 +77,11 @@ This Project does not contain video feature
 ![Image alt text](screenshot7.png)
 
 <hr>
+<h4> Project 9-:  Clock Modal
+<br>
+This Project does not contain video feature
+</h4>
+
+![Image alt text](screenshot7.png)
+
+<hr>
