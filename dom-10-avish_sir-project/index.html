@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobvie Project</title>
+    <link rel="stylesheet" href="/dom-10-avish_sir-project/style.css">
+    <script src="https://kit.fontawesome.com/10255ec4b4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="#" class="button" id="button">Login</a>
+    </div>
+
+    <div class="popup">
+        <i class="fa-solid fa-skull-crossbones " id="close"></i>
+        <div class="popup-content">
+            <form id="inputForm">
+                <label>Movie Name<input id="inputText1" type="text" placeholder="Enter Movie Here" /></label>
+                <label>Movie Link<input id="inputText2" type="url" placeholder="Enter Movie Link" /> </label>
+                <label>IMDB Rating<input id="inputText3" type="text" placeholder="Enter Rating Here" /></label>
+
+                <label>Actor Name<input id="inputText4" type="text" placeholder="Enter Actor Here" /></label>
+                <label>Director Name<input id="inputText5" type="text" placeholder="Enter Director Here" /></label> <br>
+                <label>Category</label>
+                <select id="category">
+                    <option value="comedy">Comedy</option>
+                    <option value="action">Action</option>
+                    <option value="romance">Romance</option>
+                </select> <br>
+                <button type="submit" onclick="addData(event)" id="addBtn">Add Data</button>
+
+            </form>
+        </div>
+    </div>
+
+    <div id="container">
+    </div>
+
+
+</body>
+<script src="/dom-10-avish_sir-project/script.js"></script>
+
+</html>
