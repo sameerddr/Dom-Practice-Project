@@ -73,8 +73,6 @@ Plz Mention The Remarks or feedback for this project .. Thanks Guys
 This Project does not contain video feature
 </h4>
 
-
-
 ![Image alt text](screenshot6.png)
 ![Image alt text](screenshot7.png)
 
