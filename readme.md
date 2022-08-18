@@ -1,8 +1,9 @@
 <h1>
-Guys If you will click on the Image then you reach at the video Of particular project 
-Note - : Some projects Video are not available which are mentioned 
+Guys If you will click on the Image then you reach at the video Of particular project  <br>
 </h1>
 
+<h2>Note - : Some projects Video are not available which are mentioned 
+</h2>
 <hr>
 
 <h4> Project 1-: Color Flipper</h4>
