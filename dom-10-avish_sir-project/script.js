@@ -44,20 +44,27 @@ function showData(newData) {
         let div = document.createElement("div");
         div.setAttribute("class", "content");
         let p1 = document.createElement("p");
-        p1.textContent = d.text1;
+        p1.setAttribute("class", "moviename");
+        p1.textContent = "Movie Name - " + d.text1;
         let p2 = document.createElement("href");
-        p2.setAttribute("class", "link");
-        p2.textContent = d.text2;
+        p2.setAttribute("class", "movielink");
+        p2.textContent = "Movie Link - " + d.text2;
         location.href.p2;
-        console.log(p2);
+        // console.log(p2);
         let p3 = document.createElement("p");
-        p3.textContent = d.text3;
+        p3.setAttribute("class", "movierating");
+        p3.textContent = "Movie Rating - " + d.text3;
+        console.log(typeof(p3));
+        console.log(p3);
         let p4 = document.createElement("p");
-        p4.textContent = d.text4;
+        p4.setAttribute("class", "actorame");
+        p4.textContent = "Actor Name - " + d.text4;
         let p5 = document.createElement("p");
-        p5.textContent = d.text5;
+        p5.setAttribute("class", "directorname");
+        p5.textContent = "Director Name - " + d.text5;
         let p6 = document.createElement("p");
-        p6.textContent = d.cate;
+        p6.setAttribute("class", "category");
+        p6.textContent = "Movie Category - " + d.cate;
 
 
         div.append(p1);
@@ -69,3 +76,22 @@ function showData(newData) {
         mainDiv.append(div);
     });
 }
+
+
+
+// function filterData() {
+//     let filteredData = data.filter((e) => {
+//             let a = document.querySelector(".moviename");
+//             // a.sort();
+//             // return e. === "moviename";
+
+//             var paraArr = [].slice.call(a).sort(function(a, b) {
+//                 return a.textContent > b.textContent ? 1 : -1;
+//                 // return a;
+//             });
+//             console.log("filteredData", filteredData);
+//             showData(filteredData);
+
+//         }
+//     }
+//     showData(filteredData);

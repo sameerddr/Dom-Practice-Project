@@ -90,13 +90,14 @@ input {
 }
 
 .content {
-    width: 20%;
+    width: auto;
     height: auto;
-    font-size: 40px;
+    font-size: 20px;
     background-color: black;
     color: white;
     text-align: center;
     border: 2px solid peru;
+    line-height: 2;
 }
 
 #addBtn {
