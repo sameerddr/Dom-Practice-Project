@@ -27,7 +27,7 @@ function addData(e) {
     let obj = {
         text1: textValue1,
         text2: textValue2,
-        text3: textValue3,
+        text3: textValue3, // imdb
         text4: textValue4,
         text5: textValue4,
         cate: category,
@@ -77,21 +77,14 @@ function showData(newData) {
     });
 }
 
+let filterDataa = document.querySelector("filterimdb");
+filterDataa.addEventListener("click", filterData(data));
 
+function filterData(data) {
+    data.sort((a, b) => {
+        // return a[“text3”] - b[“text3”];
+        return a["text3"] - b["text3"];
 
-// function filterData() {
-//     let filteredData = data.filter((e) => {
-//             let a = document.querySelector(".moviename");
-//             // a.sort();
-//             // return e. === "moviename";
-
-//             var paraArr = [].slice.call(a).sort(function(a, b) {
-//                 return a.textContent > b.textContent ? 1 : -1;
-//                 // return a;
-//             });
-//             console.log("filteredData", filteredData);
-//             showData(filteredData);
-
-//         }
-//     }
-//     showData(filteredData);
+    })
+    showData(filterData);
+}
