@@ -92,7 +92,7 @@ This Project does not contain video feature
 This Project does not contain video feature
 </h4>
 
-![Image alt text](/dom-11/screenshot11.png)
+![Image alt text](/dom-11-wikipedia/screenshot11.png)
 
 <hr>
 <hr>
